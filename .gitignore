@@ -1,0 +1,10 @@
+dist/
+vendor/
+.env
+.env.*
+.npmrc
+*.zip
+*.log
+__pycache__/
+*.pyc
+.DS_Store
