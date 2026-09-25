@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "checks": {
+    "anonymous_denied_by_native_login": true,
+    "native_login_form": true,
+    "native_login_csrf_present": true,
+    "native_login_admin600": true,
+    "native_admin_route": true,
+    "stored_xss_escaped": true,
+    "private_uncached_result": true,
+    "_token_present": true,
+    "intent_present": true,
+    "native_csrf_rejected": true,
+    "consumed_intent_not_replayable": true,
+    "paid_consent_required": true,
+    "draft_change_invalidates_intent": true,
+    "stale_intent_after_restore_rejected": true,
+    "native_login_limited600": true,
+    "native_nonadmin_forbidden": true,
+    "native_nonadmin_post_forbidden": true,
+    "missing_draft_404": true,
+    "repeated_post_at_most_one_consumption": true,
+    "same_intent_exactly_one_paid_stub_call": true,
+    "retry_after_consumption_rejected": true,
+    "retry_did_not_reach_transport": true,
+    "independent_paid_intents": true,
+    "first_native_post_inside_delayed_tls_transport": true,
+    "actual_parallel_native_lock_rejection": true,
+    "parallel_post_only_one_tls_stub_call": true,
+    "no_automatic_retry_of_locked_post": true
+  },
+  "host": "Mautic 5.2.8 official release installed",
+  "php": "8.3.23",
+  "mariadb": "mariadb  Ver 15.1 Distrib 10.11.13-MariaDB, for Linux (x86_64) using readline 5.1",
+  "archive_source": "verified-local-archive",
+  "observations": {
+    "separate_sessions_second_finished_before_first": true
+  },
+  "local_tls_stub_calls": 2,
+  "billing": "synthetic local-only key and zero-charge TLS fixture; no real API",
+  "mail_hook": "N/A: advisory plugin has no mail send hook"
+}
